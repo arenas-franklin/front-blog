@@ -67,3 +67,49 @@ body{
     padding:20px 40px;
     font-size:30px;
 }
+
+/* estilização do main  */
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.card{
+    width:250px;
+    margin:30px;
+}
+
+.card-header img{
+    width:100%;
+}
+
+.card-body{
+    text-align:center;
+    padding:15px 15px;
+    background-color:white;
+}
+
+.card-content h1{
+    font-size:20px;
+    margin:0;
+}
+
+.card-content h2{
+    margin-top: 5px;
+    font-size:12px;
+    font-weight:100;
+    color:grey;
+}
+
+.card-footer{
+    display:flex;
+    font-size:12px;
+    justify-content:space-between;
+    color:grey;
+}
+
+.card-footer a{
+    text-decoration:none;
+    color:grey;
+}
